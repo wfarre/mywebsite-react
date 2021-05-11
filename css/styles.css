@@ -1,0 +1,356 @@
+#footer, #about, #heading {
+  background-color: #FFEE93;
+}
+
+.contactme-text, h3, h2, h1, .container .skill--title {
+  color: #E97878;
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+.btn {
+  border-radius: 3rem;
+  background-color: #E97878;
+  color: #9B5151;
+  font-family: "Rubik Mono One", sans-serif;
+  padding: 1rem;
+  border: none;
+  box-shadow: 0px 4px 10px black;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #FFF;
+  border: solid 1px #E97878;
+  color: #E97878;
+}
+.btn--hd {
+  margin-right: 5rem;
+}
+.btn--dl {
+  border-radius: 100%;
+  display: inline-block;
+  padding: 0;
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar {
+  position: sticky;
+  text-align: left;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -25%;
+  z-index: 10;
+  background-color: #E97878;
+  height: 20rem;
+  border-radius: 0 3rem 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 5rem;
+  box-shadow: 0px 4px 10px black;
+}
+.navbar .item {
+  text-align: center;
+}
+.navbar .item a {
+  text-decoration: none;
+  color: #FFF;
+}
+.navbar .item a .icon {
+  font-size: 2rem;
+  background: transparent;
+  background-color: transparent;
+}
+.navbar .item a .icon:hover {
+  color: #9B5151;
+}
+
+.container {
+  padding: 0 10rem;
+}
+.container--flex {
+  display: flex;
+  justify-content: space-around;
+}
+.container--flex__portfolio {
+  height: 25rem;
+  flex-wrap: wrap;
+}
+.container__skill {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 10% 15% 15% 15% 15% 15%;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-items: center;
+  justify-content: space-between;
+}
+.container .skill--title {
+  color: #E97878;
+}
+.container .skill--title--a {
+  grid-area: 1/1/span 1/span 2;
+}
+.container .skill--title--b {
+  grid-area: 1/3/span 1/span 2;
+}
+.container .skill--title--c {
+  grid-area: 5/3/span 1/span 2;
+}
+.container .skill--item--prog {
+  grid-column: 1;
+}
+.container .skill--item--util {
+  grid-column: 3;
+}
+.container .skill--item--lang {
+  grid-area: 6/3/span 1/span 2;
+  text-align: center;
+}
+
+.container--grid {
+  display: grid;
+  padding: 0 7rem;
+  grid-template-columns: 50% 50%;
+}
+.container--grid--title {
+  grid-area: 1/1/span 1/span 2;
+  text-align: center;
+}
+
+em {
+  color: #fff;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  color: #E97878;
+  font-family: "Rubik", sans-serif;
+}
+
+#heading {
+  height: 50rem;
+  padding: 1rem 10rem;
+  text-align: right;
+}
+
+#about {
+  height: 50rem;
+}
+
+#footer {
+  position: sticky;
+  bottom: 0.01rem;
+  text-align: center;
+  color: #FFF;
+  font-size: xx-small;
+}
+#footer a {
+  color: #E97878;
+}
+
+#portfolio {
+  height: 50rem;
+}
+
+#contact {
+  height: 50rem;
+  overflow: hidden;
+}
+
+.title {
+  margin-top: 17rem;
+}
+
+h1 {
+  font-size: xx-large;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  text-align: left;
+}
+
+h2 {
+  font-size: xx-large;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  margin-right: 5rem;
+}
+
+.title-form {
+  background-color: #F5D782;
+  height: 10rem;
+  width: 25rem;
+  border-radius: 0 0 100% 0;
+}
+
+.section-title {
+  position: relative;
+  margin-left: 2rem;
+  top: -9rem;
+  margin-bottom: -2.5rem;
+}
+
+.website-img {
+  width: 20rem;
+  height: 15rem;
+}
+.website-img__circle {
+  border-radius: 100%;
+  border: solid 16px #F5D782;
+  width: 12rem;
+  height: 12rem;
+}
+.website-img__circle:hover {
+  cursor: pointer;
+}
+.website-img__circle--1 {
+  align-self: flex-start;
+}
+.website-img__circle--2 {
+  align-self: flex-end;
+}
+
+.about--item {
+  width: 50%;
+  margin-right: 1rem;
+}
+.about--content {
+  background-color: #FFF;
+  border-radius: 3rem;
+  color: #9B5151;
+  padding: 1rem;
+}
+
+.icon {
+  width: 3.2rem;
+}
+.icon__lang {
+  margin-right: 1rem;
+}
+
+.ball {
+  width: 1.5rem;
+  height: 1rem;
+  border-radius: 100%;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.ball__filled {
+  background-color: #F5D782;
+}
+.ball__empty {
+  background-color: lightgray;
+}
+
+.dl-cv {
+  float: right;
+  margin-top: 2rem;
+  margin-right: 11rem;
+}
+.dl-cv p {
+  display: inline-block;
+  margin-right: 1rem;
+  font-weight: bolder;
+}
+
+.contact {
+  border-radius: 3rem;
+  display: block;
+  border-color: #E97878;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+.contact--object {
+  height: 2rem;
+  width: 20rem;
+}
+.contact--content {
+  width: 30rem;
+  height: 15rem;
+  padding-top: 2rem;
+}
+
+.circle {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 100%;
+  position: relative;
+}
+.circle__primary {
+  opacity: 0.7;
+  background-color: #E97878;
+  top: 2rem;
+  right: 3rem;
+}
+.circle__secondary {
+  background-color: #F5D782;
+  bottom: 11rem;
+  left: 2rem;
+  float: right;
+}
+
+.contactme-text {
+  position: relative;
+  bottom: 25rem;
+  left: 1rem;
+  width: 13rem;
+}
+
+.card {
+  display: none;
+  width: 90%;
+  height: 90%;
+  border-radius: 3rem;
+  margin: auto;
+  position: fixed;
+  z-index: 21;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+}
+.card p, .card li {
+  color: #9B5151;
+}
+.card ul {
+  padding: 0;
+}
+.card li {
+  display: inline-block;
+  background-color: #F5D782;
+  padding: 5px;
+  border-radius: 3rem;
+  margin-right: 1rem;
+}
+.card h2 {
+  margin: 2rem 0;
+}
+
+.overlay {
+  display: none;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #FFEE93;
+  position: fixed;
+  z-index: 20;
+  opacity: 0.7;
+}
+
+.cross {
+  margin-top: 2rem;
+  margin-right: 5rem;
+  float: right;
+}
+.cross:hover {
+  fill: #E97878;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
